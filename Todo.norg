@@ -1,0 +1,41 @@
+* Todo
+  - ( ) Neorg config
+  -- Add the modules I like, read up a bit more on new features when updating cnf
+  -- Figure out how to make all todos show completion? Maybe ask the discord
+  - ( ) lsp
+  -- install and configure for languages I usually use, see TS list
+  -- (x) test
+  -- ( ) lsp lines
+  - ( ) Per-File configs, in what file to expand tabs, how wide 'tabs' are, etc
+  - ( ) cmp
+  -- add all my cmp plugins
+  -- neorg has a completion module?
+  -- Change my aucomplete to be arrows, so I can use kanata's caps+hjkl arrows for that
+  - ( ) vimtex -- get a decent environment, maybe look into a devenv like will runs
+  - ( ) image rendering -- hologram? -- needed for neorg with how I notate
+  - little guys
+  -- ( ) no neck pain
+  -- (x) Alpha-nvim 
+  -- (x) colored paren/bracket matching
+  -- (x) lualine
+  -- (x) undotree
+  -- (x) venn
+  -- (x) vim gitgutter
+  --- (x) Remove my remaps in favor of mini.move -- map to same Shift+hjkl
+  -- indent lines
+  - (x) Copy my filetype-agnostic settings
+  - (x) Treesitter, with parsers for the langs I usually use
+  -- Ended up going with: asm, bash, bash, c, c_sharp, haskell, java, latex, lua, markdown, nix, norg, regex, rust, toml, toml, verilog
+  -- So... just a couple.
+  - (x) Telescope
+  - (x) Theme
+
+
+* Cool future things:
+  - Actually use whichkey or similar
+
+  - https://github.com/Marskey/telescope-sg/
+  - zoxide
+  - broot -- telescope with that instead of fd?
+  - https://github.com/rhysd/conflict-marker.vim
+  - https://github.com/lewis6991/gitsigns.nvim -- see the keybinds sections, would be cool for staging hunks
