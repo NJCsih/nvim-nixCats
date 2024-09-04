@@ -50,21 +50,21 @@ vim.opt.list = true
 --vim.opt.lcs.append = { 'trail:•' }
 --vim.opt.lcs.append = { 'tab:|  ' }
 vim.opt.showbreak = "|   "
-vim.opt.listchars =
-	{ -- This stuff is also set per bufftype in autocommands.lua, changes here may need to be copied over there
-		eol = "󱞥",
-		space = "•",
-		trail = "•",
-		tab = "| ",
-		extends = "◀",
-		precedes = "▶",
-	}
+--vim.opt.listchars =
+--	{ -- This stuff is also set per bufftype in autocommands.lua, changes here may need to be copied over there
+--		eol = "󱞥",
+--		space = "•",
+--		trail = "•",
+--		tab = "| ",
+--		extends = "◀",
+--		precedes = "▶",
+--	}
 
 -- tab settings
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = false --use real tabs
+vim.opt.expandtab = true --use real tabs
 
 -- running java files:
 --vim.keymap.set("n", "<F9>", "<cmd>!java %<CR>")

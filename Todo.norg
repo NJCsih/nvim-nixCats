@@ -1,11 +1,12 @@
 * Todo
+  - ( ) Make a function that toggles if show invisibles are on, maybe bind to <leader>i
   - ( ) Neorg config
   -- Add the modules I like, read up a bit more on new features when updating cnf
   -- Figure out how to make all todos show completion? Maybe ask the discord
   - ( ) lsp
   -- install and configure for languages I usually use, see TS list
-  -- (x) test
-  -- ( ) lsp lines
+  -- (x) lsp lines
+  -- ( ) Install lsps for all the languages I care about
   - ( ) Per-File configs, in what file to expand tabs, how wide 'tabs' are, etc
   - ( ) cmp
   -- add all my cmp plugins

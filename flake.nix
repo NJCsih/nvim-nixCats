@@ -110,6 +110,14 @@
         general = with pkgs; [
           fd
           ripgrep
+
+          bash-language-server
+          clang
+          lua-language-server
+          csharp-ls
+          jdt-language-server
+          marksman
+          nixd
         ];
       };
 
@@ -119,15 +127,22 @@
         general = with pkgs.vimPlugins; [
           alpha-nvim
           catppuccin-nvim
+          nvim-cmp
+          cmp-nvim-lsp
+          cmp-buffer
+          cmp-path
+          #cmp-luasnip
+          cmp-latex-symbols
           gitsigns-nvim
           indent-blankline-nvim
           lualine-nvim
+          lsp_lines-nvim
           mini-nvim
           neorg
+          nvim-lspconfig
           nvim-treesitter
           # Add treesitter for nushell? It seems to be under tree-sitter-grammars.tree-sitter-nushell? not the nvim-treesitter-parsers? Is there a difference between a grammar and a parser?
           nvim-treesitter-parsers.asm
-          nvim-treesitter-parsers.bash
           nvim-treesitter-parsers.bash
           nvim-treesitter-parsers.c
           nvim-treesitter-parsers.c_sharp
@@ -140,7 +155,6 @@
           nvim-treesitter-parsers.norg
           nvim-treesitter-parsers.regex
           nvim-treesitter-parsers.rust
-          nvim-treesitter-parsers.toml
           nvim-treesitter-parsers.toml
           nvim-treesitter-parsers.verilog
           onedark-nvim
