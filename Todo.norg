@@ -40,3 +40,8 @@
   - broot -- telescope with that instead of fd?
   - https://github.com/rhysd/conflict-marker.vim
   - https://github.com/lewis6991/gitsigns.nvim -- see the keybinds sections, would be cool for staging hunks
+
+  - Find/write a plugin for converting arbitrary lines with ascii? Like I'm having trouble drawing shallow lines between arbitrary points.
+
+  - Document all the git keybinds/commands
+  -- Fugitive is super cool, but I need to write down it's capabilities, do the same with the git signs plugin which are the <leader>h[] keybinds. I need to memorize them.

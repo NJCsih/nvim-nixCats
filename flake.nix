@@ -133,10 +133,12 @@
           cmp-path
           #cmp-luasnip
           cmp-latex-symbols
+          flash-nvim
+          fugitive
           gitsigns-nvim
           indent-blankline-nvim
-          lualine-nvim
           lsp_lines-nvim
+          lualine-nvim
           mini-nvim
           neorg
           nvim-lspconfig
