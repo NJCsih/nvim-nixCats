@@ -113,11 +113,12 @@
 
           bash-language-server
           clang
-          lua-language-server
           csharp-ls
           jdt-language-server
+          lua-language-server
           marksman
           nixd
+          texlab
         ];
       };
 
@@ -163,6 +164,7 @@
           rainbow-delimiters-nvim
           telescope-nvim
           undotree
+          vimtex
         ];
       };
 

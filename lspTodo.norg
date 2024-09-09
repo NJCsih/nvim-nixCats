@@ -1,0 +1,14 @@
+- (x) c_sharp
+- (x) java
+- (x) nixd
+- (-) bash-language-server
+- (-) c
+- ( ) haskell
+- ( ) latex
+- ( ) lua -- had to comment out the require for that file, it was causing issues
+- ( ) marksman
+- ( ) rust
+- ( ) verilog
+- (_) asm
+- (_) norg
+- (_) regex
