@@ -39,15 +39,16 @@ cmp.setup({
 		--opts.mapping = {
 		["<Up>"] = cmp.mapping.select_prev_item(),
 		["<Down>"] = cmp.mapping.select_next_item(),
-        ["<S-<Up>>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
-        ["<S-<Down>>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
+		["<S-<Up>>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
+		["<S-<Down>>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
 		["<Right>"] = cmp.mapping.confirm({ select = true }),
+		--["<Right>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
 		--["<C-l>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
 		--["<C-y>"] = cmp.config.disable, -- Specify `cmp.config.disable` if you want to remove the default `<C-y>` mapping.
 		--["<C-e>"] = cmp.mapping({
-	    --	i = cmp.mapping.abort(),
-	    --	c = cmp.mapping.close(),
-	    --}),
+		--	i = cmp.mapping.abort(),
+		--	c = cmp.mapping.close(),
+		--}),
 
 		-- Accept currently selected item. If none selected, `select` first item.
 		-- Set `select` to `false` to only confirm explicitly selected items.

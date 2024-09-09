@@ -80,7 +80,7 @@ require('gitsigns').setup {
     map('v', '<leader>hs', function() gitsigns.stage_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
     map('v', '<leader>hr', function() gitsigns.reset_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
     --map('n', '<leader>hS', gitsigns.stage_buffer) -- I want this to be harder because it's annoying to reverse, I'll just do it via fugitive
-    m'p('n', '<leader>hu', gitsigns.undo_stage_hunk)
+    map('n', '<leader>hu', gitsigns.undo_stage_hunk)
     map('n', '<leader>hR', gitsigns.reset_buffer)
     map('n', '<leader>hp', gitsigns.preview_hunk)
     map('n', '<leader>hb', function() gitsigns.blame_line{full=true} end)

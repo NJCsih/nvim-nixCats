@@ -5,7 +5,7 @@ require("plugins.lsp.nixd")
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
 require("plugins.lsp.clangd")
 
---require("plugins.lsp.lua_language_server")
+require("plugins.lsp.lua_language_server")
 require("plugins.lsp.marksman")
 require("plugins.lsp.pyright")
 require("plugins.lsp.rust_analyzer")
