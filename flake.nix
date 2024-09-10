@@ -141,6 +141,7 @@
           lsp_lines-nvim
           lualine-nvim
           mini-nvim
+          nabla-nvim
           neorg
           nvim-lspconfig
           nvim-treesitter

@@ -12,10 +12,11 @@
   -- add all my cmp plugins
   -- neorg has a completion module?
   -- Change my aucomplete to be arrows, so I can use kanata's caps+hjkl arrows for that
-  - ( ) vimtex -- get a decent environment, maybe look into a devenv like will runs
+  - ( ) Latex rendering
   - ( ) image rendering -- hologram? -- needed for neorg with how I notate
+  - (x) vimtex -- get a decent environment, maybe look into a devenv like will runs
   - little guys
-  -- ( ) no neck pain
+  -- (_) no neck pain
   -- (x) Alpha-nvim 
   -- (x) colored paren/bracket matching
   -- (x) lualine
