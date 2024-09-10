@@ -12,8 +12,10 @@
   -- add all my cmp plugins
   -- neorg has a completion module?
   -- Change my aucomplete to be arrows, so I can use kanata's caps+hjkl arrows for that
-  - ( ) Latex rendering
   - ( ) image rendering -- hologram? -- needed for neorg with how I notate
+  - ( ) Latex image rendering
+  - (x) Latex ascii rendering
+  - (x) Flash.nvim for easy jumping movement
   - (x) vimtex -- get a decent environment, maybe look into a devenv like will runs
   - little guys
   -- (_) no neck pain
