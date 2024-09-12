@@ -165,6 +165,7 @@
           rainbow-delimiters-nvim
           telescope-nvim
           undotree
+          venn-nvim
           vimtex
         ];
       };
