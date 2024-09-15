@@ -1,4 +1,5 @@
 * Todo
+  - ( ) Make it so that if I open on a directory it immideately drops me into telescope
   - ( ) Make a function that toggles if show invisibles are on, maybe bind to <leader>i
   - ( ) Neorg config
   -- Add the modules I like, read up a bit more on new features when updating cnf
