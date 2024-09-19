@@ -25,6 +25,7 @@ dashboard.section.header.val = { -- https://patorjk.com/software/taag/#p=testall
 
   dashboard.section.buttons.val = {
     dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
+    dashboard.button("g", "  Vugitive", ":G <CR><C-w>j:q <CR>"),
     dashboard.button("r", "󰄉  Recently used files", ":Telescope oldfiles <CR>"),
     dashboard.button("f", "󰈞  Find file", ":Telescope fd <CR>"),
     dashboard.button("t", "  Terminal" , ":term<CR>"),
