@@ -119,6 +119,7 @@
 			 lua-language-server
 			 marksman
 			 nixd
+			 rust-analyzer
 			 texlab
 			];
 		};
@@ -165,6 +166,7 @@
 			 nvim-treesitter-parsers.verilog
 			 onedark-nvim
 			 rainbow-delimiters-nvim
+			 rustaceanvim
 			 telescope-nvim
 			 undotree
 			 venn-nvim
