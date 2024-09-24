@@ -142,6 +142,7 @@
 			 gitsigns-nvim
 			 indent-blankline-nvim
 			 lsp_lines-nvim
+			 luasnip
 			 lualine-nvim
 			 mini-nvim
 			 nabla-nvim
