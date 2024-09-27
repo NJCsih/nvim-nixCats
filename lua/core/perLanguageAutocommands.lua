@@ -38,6 +38,18 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
 
 -- MISC --------------------------------------------------------------------------------------------
 
+-- Create an autocommand that runs nabla on cursor move
+-- This is probably massively intensive :p -- TODO rewrite to only be attatched to buffers of the right type.
+vim.api.nvim_create_autocmd({ "CursorHold" }, {
+    -- pattern = { "bash"  -- make this not work on a terminal window
+    callback = function()
+        local FileType = vim.bo.filetype
+        if (FileType == 'norg' or FileType == 'tex') then
+            vim.cmd([[lua require('nabla').popup({border = 'rounded'})]])
+        end
+    end,
+})
+
 -- I believe this is for qmk keyboard config files
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.kbd" },
