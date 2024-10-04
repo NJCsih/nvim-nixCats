@@ -101,7 +101,7 @@ function LuaStyle()
 
   vim.opt_local.listchars = {
     eol = '⤶',
-    space = "•",
+    space = " ",
     trail = "•",
     tab = "| ",
     extends = "◀",
@@ -164,14 +164,6 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.lua" },
   callback = function()
     LuaStyle()
-    vim.opt_local.listchars = {
-      eol = '⤶',
-      space = " ",
-      trail = "•",
-      tab = " ",
-      extends = "◀",
-      precedes = "▶",
-    }
   end,
 })
 
@@ -179,7 +171,6 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.nix" },
   callback = function()
     LuaStyle()
-    vim.opt_local.expandtab = false
   end,
 })
 
