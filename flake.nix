@@ -140,6 +140,7 @@
 			 flash-nvim
 			 fugitive
 			 gitsigns-nvim
+			 hop-nvim
 			 indent-blankline-nvim
 			 lsp_lines-nvim
 			 luasnip

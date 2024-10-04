@@ -2,6 +2,7 @@ require("plugins.lsp")
 
 require("plugins.alpha")
 require("plugins.flash")
+require("plugins.hop")
 require("plugins.gitsigns")
 require("plugins.indentblankline")
 require("plugins.lsp-lines")

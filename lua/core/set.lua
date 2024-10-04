@@ -30,7 +30,7 @@ vim.opt.updatetime = 100
 
 vim.opt.colorcolumn = "80"
 
-vim.opt.fillchars = "eob: "
+--vim.opt.fillchars = "eob: "
 
 --window cleanup
 vim.opt.laststatus = 3 -- single, global statusline
