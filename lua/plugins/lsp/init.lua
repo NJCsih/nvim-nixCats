@@ -4,6 +4,7 @@ require("plugins.lsp.jdtls")
 require("plugins.lsp.nixd")
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
 require("plugins.lsp.clangd")
+require("plugins.lsp.openscad")
 -- Rust is handled by rustaceanvim, not lspconfig
 
 require("plugins.lsp.lua_language_server")

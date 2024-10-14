@@ -119,6 +119,7 @@
         lua-language-server
         marksman
         nixd
+        openscad-lsp
         rust-analyzer
         texlab
       ];
