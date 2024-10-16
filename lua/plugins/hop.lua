@@ -6,7 +6,7 @@ local directions = require('hop.hint').HintDirection
 -- See: https://github.com/fj0r/nvim-lua/blob/51bdf1c7736ba901842a47174b81d1059a3503f1/lua/settings/hop.lua#L1-L17
 -- I am not the lua wizzard I wish I was
 
-local regex = vim.regex('\\v[a-zA-Z0-9]+|[,=#]+|[:;\\[\\]\\<\\><>{}()]\\s*$|\\s+$')
+local regex = vim.regex('\\v[a-zA-Z0-9]+|[\\\\+*$,=#]|[:;\\[\\]\\<\\><>{}()]\\s*$|\\s+$')
 
 local override_opts = function(opts)
     return setmetatable(opts or {}, {
