@@ -23,6 +23,8 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
     NotatingSettings()
     -- Neorg-specific config goes here
     vim.opt_local.expandtab = true
+    vim.opt_local.colorcolumn=""
+    vim.opt_local.cursorline = false
   end,
 })
 
@@ -178,5 +180,13 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.java" },
   callback = function()
     JavaStyle()
+  vim.opt_local.listchars = {
+    eol = '⤶',
+    space = " ",
+    trail = "•",
+    tab = "| ",
+    extends = "◀",
+    precedes = "▶",
+  }
   end,
 })

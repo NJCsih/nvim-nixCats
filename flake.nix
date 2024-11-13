@@ -120,6 +120,7 @@
         marksman
         nixd
         openscad-lsp
+        pyright
         rust-analyzer
         texlab
       ];
@@ -129,14 +130,17 @@
     startupPlugins = {
       gitPlugins = with pkgs.neovimPlugins; [ ];
       general = with pkgs.vimPlugins; [
+
+        # Todo
+        #cmp-luasnip
+        # Add treesitter for nushell? It seems to be under tree-sitter-grammars.tree-sitter-nushell? not the nvim-treesitter-parsers? Is there a difference between a grammar and a parser?
+
         alpha-nvim
         catppuccin-nvim
-        nvim-cmp
-        cmp-nvim-lsp
         cmp-buffer
-        cmp-path
-        #cmp-luasnip
         cmp-latex-symbols
+        cmp-nvim-lsp
+        cmp-path
         conform-nvim
         flash-nvim
         fugitive
@@ -144,14 +148,15 @@
         hop-nvim
         indent-blankline-nvim
         lsp_lines-nvim
-        luasnip
         lualine-nvim
+        luasnip
         mini-nvim
         nabla-nvim
         neorg
+        nvim-cmp
+        nvim-dap
         nvim-lspconfig
         nvim-treesitter
-        # Add treesitter for nushell? It seems to be under tree-sitter-grammars.tree-sitter-nushell? not the nvim-treesitter-parsers? Is there a difference between a grammar and a parser?
         nvim-treesitter-parsers.asm
         nvim-treesitter-parsers.bash
         nvim-treesitter-parsers.c

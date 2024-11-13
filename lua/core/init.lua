@@ -2,6 +2,6 @@ vim.g.mapleader = " "
 
 require("core.autocommands")
 require("core.color")
-require("core.perLanguageAutocommands")
+require("core.perLanguageFormattingACmds")
 require("core.remap")
 require("core.set")
