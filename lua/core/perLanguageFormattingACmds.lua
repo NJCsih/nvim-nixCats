@@ -46,7 +46,7 @@ vim.api.nvim_create_autocmd({ "CursorHold" }, {
     -- pattern = { "bash"  -- make this not work on a terminal window
     callback = function()
         local FileType = vim.bo.filetype
-        if (FileType == 'norg' or FileType == 'tex') then
+        if (FileType == 'norg' or FileType == 'tex' or FileType == 'markdown') then
             vim.cmd([[lua require('nabla').popup({border = 'rounded'})]])
         end
     end,
