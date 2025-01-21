@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("gruvbox")
 
 vim.cmd([[highlight Normal guibg=none]])
 vim.cmd([[highlight NormalNC guibg=none]])
