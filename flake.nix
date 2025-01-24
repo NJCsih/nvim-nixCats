@@ -31,6 +31,11 @@
     neorg-overlay.url = "github:nvim-neorg/nixpkgs-neorg-overlay";
     neorg-overlay.inputs.nixpkgs.follows = "nixpkgs";
 
+    "plugins-heirline-components-nvim" = {
+      url = "github:Zeioth/heirline-components.nvim";
+      flake = false;
+    };
+
     # see :help nixCats.flake.inputs
     # If you want your plugin to be loaded by the standard overlay,
     # i.e. if it wasnt on nixpkgs, but doesnt have an extra build step.
@@ -106,6 +111,7 @@
           ripgrep
 
           bash-language-server
+          llvmPackages_17.clang-tools
           clang
           csharp-ls
           jdt-language-server
@@ -121,7 +127,12 @@
 
       # This is for plugins that will load at startup without using packadd:
       startupPlugins = {
-        gitPlugins = with pkgs.neovimPlugins; [ ];
+        gitPlugins = pkgs.lib.forEach ( with pkgs.neovimPlugins; [
+          heirline-components-nvim # nice prebuilt components for heirline
+        ]) (pkg: pkg.overrideAttrs (_: {
+          doCheck = false;
+        }));
+
         general = with pkgs.vimPlugins; [
 
           # Todo
@@ -129,7 +140,6 @@
           # Add treesitter for nushell? It seems to be under tree-sitter-grammars.tree-sitter-nushell? not the nvim-treesitter-parsers? Is there a difference between a grammar and a parser?
 
           alpha-nvim
-          catppuccin-nvim
           cmp-buffer
           cmp-latex-symbols
           cmp-nvim-lsp
@@ -141,7 +151,7 @@
           hop-nvim
           indent-blankline-nvim
           lsp_lines-nvim
-          lualine-nvim
+          heirline-nvim
           luasnip
           mini-nvim
           nabla-nvim

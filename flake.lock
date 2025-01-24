@@ -83,11 +83,11 @@
     "neorg": {
       "flake": false,
       "locked": {
-        "lastModified": 1736708660,
-        "narHash": "sha256-HJ0JhAekuYqpuUrK4Vl/tzUVYYTFIB/CS+IDNEHZxvs=",
+        "lastModified": 1737594734,
+        "narHash": "sha256-on2XKJ884X1tgALfgxmcieBCkw1bafwPQYTGT/hBH7c=",
         "owner": "nvim-neorg",
         "repo": "neorg",
-        "rev": "29993a7bb8279ffa0ba473a3f393daa28c645825",
+        "rev": "d88a9ade8b888723a142e4e6cc7e6bf1dc1eed4f",
         "type": "github"
       },
       "original": {
@@ -108,11 +108,11 @@
         "norg-meta": "norg-meta"
       },
       "locked": {
-        "lastModified": 1737015581,
-        "narHash": "sha256-DFJn7CXXbyJlbMfaTD+L5yEz5d203sIMpnQvefTpJck=",
+        "lastModified": 1737742863,
+        "narHash": "sha256-ZJMWB7OIKrNpxpd6GLX5MaMo0xVKsDUDWaUaGc7QmzU=",
         "owner": "nvim-neorg",
         "repo": "nixpkgs-neorg-overlay",
-        "rev": "390a1acbdb507830c02b47db9e8b82c46ad11e2d",
+        "rev": "4d37bea98a9d9b364261ca339e55b1cf9bda83ce",
         "type": "github"
       },
       "original": {
@@ -139,11 +139,11 @@
     },
     "nixCats": {
       "locked": {
-        "lastModified": 1736996818,
-        "narHash": "sha256-yKeDxUVVOW4c5oUtT3BFuO/9xGpFAGCVL3OimOnbMPQ=",
+        "lastModified": 1737742551,
+        "narHash": "sha256-Iz3ACMX23fbbeOBuf9+/Ho2cGNeTUFqp2ANJUHEllxE=",
         "owner": "BirdeeHub",
         "repo": "nixCats-nvim",
-        "rev": "0c0b02bea3dbdff81bfb38c89a4c4799a43431e6",
+        "rev": "95f08ac899038b0d7cedaabdbbcf363dff93094d",
         "type": "github"
       },
       "original": {
@@ -186,11 +186,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1736943799,
-        "narHash": "sha256-BYsp8PA1j691FupfrLVOQzm4CaYaKtkh4U+KuGMnBWw=",
+        "lastModified": 1737717945,
+        "narHash": "sha256-ET91TMkab3PmOZnqiJQYOtSGvSTvGeHoegAv4zcTefM=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ae2fb9f1fb5fcf17fb59f25c2a881c170c501d6f",
+        "rev": "ecd26a469ac56357fd333946a99086e992452b6a",
         "type": "github"
       },
       "original": {
@@ -241,11 +241,28 @@
         "type": "github"
       }
     },
+    "plugins-heirline-components-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1735493405,
+        "narHash": "sha256-M2muEW4RFQxdaJjZaXMXosy0M7Zj4MlbITRpRWpinwo=",
+        "owner": "Zeioth",
+        "repo": "heirline-components.nvim",
+        "rev": "935f29dabd86f2669e0b3c8dd283b2d3b1cfaee7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Zeioth",
+        "repo": "heirline-components.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "neorg-overlay": "neorg-overlay",
         "nixCats": "nixCats",
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_3",
+        "plugins-heirline-components-nvim": "plugins-heirline-components-nvim"
       }
     },
     "systems": {
