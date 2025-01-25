@@ -28,7 +28,7 @@ dashboard.section.header.val = { -- https://patorjk.com/software/taag/#p=testall
     dashboard.button("g", "  Vugitive", ":G <CR><C-w>j:q <CR>"),
     dashboard.button("r", "󰄉  Recently used files", ":Telescope oldfiles <CR>"),
     dashboard.button("f", "󰈞  Find file", ":Telescope fd <CR>"),
-    dashboard.button("t", "  Terminal" , ":term<CR>"),
+    --dashboard.button("t", "  Terminal" , ":term<CR>"),
     --dashboard.button("c", "  Configuration", ":e ~/.config/nvim<CR> cd"),
     dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
 }

@@ -22,10 +22,10 @@ local hint_somewhere = function(opts)
 end
 
 
-vim.keymap.set({'n','v'}, '<leader>fh', function()
+vim.keymap.set({'n','v'}, '<leader>m', function()
   hint_somewhere({ direction = directions.BEFORE_CURSOR, current_line_only = true });
 end, {remap=true})
 
-vim.keymap.set({'n','v'}, '<leader>fl', function()
+vim.keymap.set({'n','v'}, '<leader>i', function()
   hint_somewhere({ direction = directions.AFTER_CURSOR, current_line_only = true });
 end, {remap=true})
