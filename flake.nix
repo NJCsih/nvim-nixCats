@@ -151,6 +151,7 @@
           hop-nvim
           indent-blankline-nvim
           lsp_lines-nvim
+          lualine-nvim  # Temporary until heirline is done
           heirline-nvim
           luasnip
           mini-nvim
