@@ -179,6 +179,7 @@
           rainbow-delimiters-nvim
           rustaceanvim
           telescope-nvim
+          ultimate-autopair-nvim
           undotree
           venn-nvim
           vimtex
