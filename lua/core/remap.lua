@@ -21,3 +21,9 @@ vim.keymap.set("v", "<leader>y", '"+y')
 
 -- Just select entire buffer
 vim.keymap.set("n", "<leader>g", "ggVG")
+
+-- Change window move commands to be better on colemak
+vim.keymap.set("n", "<C-w><S-Left>",  "<C-w>h")
+vim.keymap.set("n", "<C-w><S-Down>",  "<C-w>j")
+vim.keymap.set("n", "<C-w><S-Up>",    "<C-w>k")
+vim.keymap.set("n", "<C-w><S-Right>", "<C-w>l")
