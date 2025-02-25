@@ -157,6 +157,7 @@
           mini-nvim
           nabla-nvim
           neorg
+          neoscroll-nvim
           nvim-cmp
           nvim-dap
           nvim-lspconfig
@@ -175,8 +176,8 @@
           nvim-treesitter-parsers.regex
           nvim-treesitter-parsers.rust
           nvim-treesitter-parsers.toml
-          nvim-treesitter-parsers.verilog
           gruvbox-nvim
+          nvim-treesitter-parsers.verilog
           rainbow-delimiters-nvim
           rustaceanvim
           telescope-nvim
@@ -184,6 +185,7 @@
           undotree
           venn-nvim
           vimtex
+          which-key-nvim
         ];
       };
 

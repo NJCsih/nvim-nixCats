@@ -26,4 +26,12 @@ vim.keymap.set("n", "<leader>g", "ggVG")
 vim.keymap.set("n", "<C-w><S-Left>",  "<C-w>h")
 vim.keymap.set("n", "<C-w><S-Down>",  "<C-w>j")
 vim.keymap.set("n", "<C-w><S-Up>",    "<C-w>k")
-vim.keymap.set("n", "<C-w><S-Right>", "<C-w>l")
+vim.keymap.set("n", "<C-w><S-Right>", "<C-w>l", {
+  desc = "test",
+})
+require("which-key").add({
+  { mode = "n", "<C-w><S-Left>",  icon = " ", desc = "Focus left" },
+  { mode = "n", "<C-w><S-Down>",  icon = " ", desc = "Focus Down" },
+  { mode = "n", "<C-w><S-Up>",    icon = " ", desc = "Focus Up" },
+  { mode = "n", "<C-w><S-Right>", icon = " ", desc = "Focus Right" }
+})
