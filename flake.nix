@@ -113,7 +113,7 @@
           bash-language-server
           llvmPackages_17.clang-tools
           clang
-          csharp-ls
+          #csharp-ls
           jdt-language-server
           lua-language-server
           marksman
@@ -165,7 +165,7 @@
           nvim-treesitter-parsers.asm
           nvim-treesitter-parsers.bash
           nvim-treesitter-parsers.c
-          nvim-treesitter-parsers.c_sharp
+          #nvim-treesitter-parsers.c_sharp
           nvim-treesitter-parsers.haskell
           nvim-treesitter-parsers.java
           nvim-treesitter-parsers.latex

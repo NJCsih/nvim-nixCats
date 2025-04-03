@@ -1,5 +1,5 @@
 -- Setup language servers.
-require("plugins.lsp.csharp-ls")
+--require("plugins.lsp.csharp-ls") -- I don't use this anymore
 require("plugins.lsp.jdtls")
 require("plugins.lsp.nixd")
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
