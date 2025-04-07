@@ -1,12 +1,15 @@
 --open netrw
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- set keybind to remove all trailing whitespace
+vim.keymap.set("n", "<leader>tr", ":%substitute/[ \t]*$//<CR>``")
+
 -- move selected up or down
 --vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 --vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- cursor stuff
-vim.keymap.set("n", "J", "mzJ'z") --keep cursor at front when using J
+vim.keymap.set("n", "J", "mzJ'z")       --keep cursor at front when using J
 vim.keymap.set("n", "<C-d>", "<C-d>zz") --keep cursor in the middle
 vim.keymap.set("n", "<C-u>", "<C-u>zz") --keep cursor in the middle
 vim.keymap.set("n", "n", "nzzzv")
