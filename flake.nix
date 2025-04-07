@@ -177,6 +177,7 @@
           nvim-treesitter-parsers.rust
           nvim-treesitter-parsers.toml
           gruvbox-nvim
+          solarized-nvim
           nvim-treesitter-parsers.verilog
           rainbow-delimiters-nvim
           rustaceanvim
