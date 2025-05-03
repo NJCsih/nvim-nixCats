@@ -144,7 +144,6 @@
           cmp-latex-symbols
           cmp-nvim-lsp
           cmp-path
-          conform-nvim
           flash-nvim
           fugitive
           gitsigns-nvim
