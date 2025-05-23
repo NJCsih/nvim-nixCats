@@ -118,6 +118,7 @@
           lua-language-server
           marksman
           nixd
+          nushell
           openscad-lsp
           pyright
           rust-analyzer
@@ -173,6 +174,7 @@
           nvim-treesitter-parsers.markdown
           nvim-treesitter-parsers.nix
           nvim-treesitter-parsers.norg
+          nvim-treesitter-parsers.nu
           nvim-treesitter-parsers.regex
           nvim-treesitter-parsers.rust
           nvim-treesitter-parsers.toml

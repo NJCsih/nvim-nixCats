@@ -1,9 +1,10 @@
 -- Setup language servers.
 --require("plugins.lsp.csharp-ls") -- I don't use this anymore
-require("plugins.lsp.jdtls")
-require("plugins.lsp.nixd")
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
 require("plugins.lsp.clangd")
+require("plugins.lsp.jdtls")
+require("plugins.lsp.nixd")
+require("plugins.lsp.nu")
 require("plugins.lsp.openscad")
 -- Rust is handled by rustaceanvim, not lspconfig
 
