@@ -12,9 +12,8 @@ vim.opt.relativenumber = true
 -- cursorline
 vim.opt.cursorline = true
 
-vim.opt.swapfile = false
+vim.opt.swapfile = true
 vim.opt.backup = false
---vim.opt.undodir = "C:/Users/NJCis/Appdata/local/nvim-data/undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -23,8 +22,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 100
-vim.opt.signcolumn = "yes"
-vim.opt.isfname:append("@-@")
+vim.opt.signcolumn = "yes" -- auto by defailt, force yes
 
 vim.opt.updatetime = 100
 
@@ -64,7 +62,7 @@ vim.opt.listchars =
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true --use real tabs
+vim.opt.expandtab = true --use spaces by default
 
 -- running java files:
 --vim.keymap.set("n", "<F9>", "<cmd>!java %<CR>")

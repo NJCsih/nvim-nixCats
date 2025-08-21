@@ -42,7 +42,7 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   callback = function()
     NotatingSettings()
     -- markdown-specific config goes here
-    vim.opt_local.expandtab = false
+    vim.opt_local.expandtab = true
   end,
 })
 
