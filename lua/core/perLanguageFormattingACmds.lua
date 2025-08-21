@@ -37,6 +37,15 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
+  pattern = { "*.typ" },
+  callback = function()
+    NotatingSettings()
+    -- markdown-specific config goes here
+    vim.opt_local.expandtab = false
+  end,
+})
+
 
 -- MISC --------------------------------------------------------------------------------------------
 

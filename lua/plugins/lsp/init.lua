@@ -3,6 +3,7 @@
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
 require("plugins.lsp.clangd")
 require("plugins.lsp.jdtls")
+require("plugins.lsp.tinymist")
 require("plugins.lsp.nixd")
 require("plugins.lsp.nu")
 require("plugins.lsp.openscad")

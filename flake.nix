@@ -123,6 +123,7 @@
           pyright
           rust-analyzer
           texlab
+          tinymist
         ];
       };
 
@@ -183,6 +184,7 @@
           rainbow-delimiters-nvim
           rustaceanvim
           telescope-nvim
+          typst-preview-nvim
           ultimate-autopair-nvim
           undotree
           venn-nvim
