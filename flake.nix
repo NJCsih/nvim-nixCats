@@ -35,6 +35,11 @@
       url = "github:Zeioth/heirline-components.nvim";
       flake = false;
     };
+    "plugins-scrollEOF-nvim" = {
+      url = "github:Aasim-A/scrollEOF.nvim";
+      flake = false;
+    };
+
 
     # see :help nixCats.flake.inputs
     # If you want your plugin to be loaded by the standard overlay,
@@ -131,6 +136,7 @@
       startupPlugins = {
         gitPlugins = pkgs.lib.forEach ( with pkgs.neovimPlugins; [
           heirline-components-nvim # nice prebuilt components for heirline
+          scrollEOF-nvim
         ]) (pkg: pkg.overrideAttrs (_: {
           doCheck = false;
         }));
