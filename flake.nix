@@ -129,6 +129,7 @@
           rust-analyzer
           texlab
           tinymist
+          verible
         ];
       };
 

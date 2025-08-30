@@ -11,7 +11,7 @@ require("plugins.mini-align")
 require("plugins.mini-move")
 require("plugins.nabla-nvim")
 require("plugins.neorg")
-require("plugins.neoscroll")
+-- require("plugins.neoscroll") -- fighting eof
 require("plugins.nvim-cmp")
 require("plugins.rainbowdelimiters")
 require("plugins.scrollEOF")
