@@ -257,12 +257,29 @@
         "type": "github"
       }
     },
+    "plugins-scrollEOF-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1755701126,
+        "narHash": "sha256-qm0q1MPxN7ZJfdQ82so+hERoaP/o22TZ/XPX/L2eF7c=",
+        "owner": "Aasim-A",
+        "repo": "scrollEOF.nvim",
+        "rev": "2bfe89a8b6669bca27ab2790965205017a84f50a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Aasim-A",
+        "repo": "scrollEOF.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "neorg-overlay": "neorg-overlay",
         "nixCats": "nixCats",
         "nixpkgs": "nixpkgs_3",
-        "plugins-heirline-components-nvim": "plugins-heirline-components-nvim"
+        "plugins-heirline-components-nvim": "plugins-heirline-components-nvim",
+        "plugins-scrollEOF-nvim": "plugins-scrollEOF-nvim"
       }
     },
     "systems": {
