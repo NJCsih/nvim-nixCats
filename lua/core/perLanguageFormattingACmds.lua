@@ -41,8 +41,12 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
   pattern = { "*.typ" },
   callback = function()
     NotatingSettings()
-    -- markdown-specific config goes here
-    vim.opt_local.expandtab = true
+    -- typst-specific config goes here
+
+    -- TODO: create a cursorhold save autocommand?
+
+    -- todo, start preview
+
   end,
 })
 
@@ -57,6 +61,9 @@ vim.api.nvim_create_autocmd({ "CursorHold" }, {
         local FileType = vim.bo.filetype
         if (FileType == 'norg' or FileType == 'tex' or FileType == 'markdown') then
             vim.cmd([[lua require('nabla').popup({border = 'rounded'})]])
+        end
+        if (FileType == 'typst') then
+          --vim.cmd "w" -- I think there's a better way to do autosaving? maybe a plugin? I don't want this to trigger on a file that's never been saved
         end
     end,
 })
@@ -80,8 +87,9 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
     vim.opt_local.tabstop = 4
     vim.opt_local.softtabstop = 4
     vim.opt_local.shiftwidth = 4
-    vim.opt_local.expandtab = false
-    vim.opt_local.colorcolumn = "100"
+    vim.opt_local.expandtab = true
+    vim.opt_local.colorcolumn = "80,100"
+    vim.opt_local.textwidth = 100
   end,
 })
 
