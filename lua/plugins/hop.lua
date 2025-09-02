@@ -29,3 +29,11 @@ end, {remap=true})
 vim.keymap.set({'n','v'}, '<leader>i', function()
   hint_somewhere({ direction = directions.AFTER_CURSOR, current_line_only = true });
 end, {remap=true})
+
+vim.keymap.set({'n','v'}, '<leader>h', function()
+  hint_somewhere({ direction = directions.BEFORE_CURSOR, current_line_only = true });
+end, {remap=true})
+
+vim.keymap.set({'n','v'}, '<leader>l', function()
+  hint_somewhere({ direction = directions.AFTER_CURSOR, current_line_only = true });
+end, {remap=true})

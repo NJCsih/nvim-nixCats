@@ -22,7 +22,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 20
-vim.opt.signcolumn = "yes" -- auto by defailt, force yes
+vim.opt.signcolumn = "yes" -- auto by default, force yes
 
 vim.opt.updatetime = 100
 
