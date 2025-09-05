@@ -260,15 +260,15 @@
     "plugins-nvim-activate": {
       "flake": false,
       "locked": {
-        "lastModified": 1756897140,
-        "narHash": "sha256-zUFAgmiJYLBft+4Qg9OYBX2OVg/PS6542xRqR0ApPb8=",
-        "owner": "tjkuson",
+        "lastModified": 1757207853,
+        "narHash": "sha256-HoLWaON2alqXlubTYDMl0hNRgutFfBzfTmRVlYP/VtE=",
+        "owner": "NJCsih",
         "repo": "nvim-activate",
-        "rev": "90149028cb3e12c1aebdf92dc012b15226552b68",
+        "rev": "7783ad89e9049ab2b8f27d985363f4d6916780a3",
         "type": "github"
       },
       "original": {
-        "owner": "tjkuson",
+        "owner": "NJCsih",
         "repo": "nvim-activate",
         "type": "github"
       }

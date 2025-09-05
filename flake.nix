@@ -39,6 +39,10 @@
       url = "github:Aasim-A/scrollEOF.nvim";
       flake = false;
     };
+    "plugins-nvim-activate" = {
+      url = "github:NJCsih/nvim-activate";
+      flake = false;
+    };
 
 
     # see :help nixCats.flake.inputs
@@ -138,6 +142,7 @@
         gitPlugins = pkgs.lib.forEach ( with pkgs.neovimPlugins; [
           heirline-components-nvim # nice prebuilt components for heirline
           scrollEOF-nvim
+          nvim-activate
         ]) (pkg: pkg.overrideAttrs (_: {
           doCheck = false;
         }));
