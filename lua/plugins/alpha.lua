@@ -3,9 +3,9 @@ local dashboard = require("alpha.themes.dashboard")
 
 -- Set header
 dashboard.section.header.val = { -- https://patorjk.com/software/taag/#p=testall&v=0&f=Sony&t=NEOVIM
-	"                                                                   ",
+	"                                                                    ",
 	"       ████ ██████           █████      ██ ██             ", -- I use nixos btw.
-	"      ███████████             █████    ██      25 04 07       ",
+	"      ███████████             █████    ██      25 09 08       ",
 	"      █████████ ████████████████  ███████████████     ",
 	"     █████████  ███    █████████████████████████    ",
 	"    █████████ ██████████ ███████████████ ████ ███   ",
@@ -24,13 +24,14 @@ dashboard.section.header.val = { -- https://patorjk.com/software/taag/#p=testall
 }
 
   dashboard.section.buttons.val = {
-    dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
-    dashboard.button("g", "  Vugitive", ":G <CR><C-w>j:q <CR>"),
-    dashboard.button("r", "󰄉  Recently used files", ":Telescope oldfiles <CR>"),
-    dashboard.button("f", "󰈞  Find file", ":Telescope fd <CR>"),
-    dashboard.button("t", "  Terminal" , ":term<CR>"),
-    --dashboard.button("c", "  Configuration", ":e ~/.config/nvim<CR> cd"),
-    dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+    dashboard.button("e", "  New file",      ":ene <BAR> startinsert <CR>"),
+    dashboard.button("g", "  Fuzzy search",  ":Telescope live_grep <CR>"), -- I use jj now
+    dashboard.button("f", "󰈞  Find file",     ":Telescope fd <CR>"),
+    dashboard.button("r", "󰄉  Recent files",  ":Telescope oldfiles <CR>"),
+    dashboard.button("t", "  Terminal" ,     ":term<CR>"),
+    dashboard.button("q", "  Quit Neovim",   ":qa<CR>"),
+    -- dashboard.button("g", "  Fugitive",      ":G <CR><C-w>j:q <CR>"), -- I use jj now
+    -- dashboard.button("c", "  Configuration", ":e ~/.config/nvim<CR> cd"),
 }
 
 local function footer()
