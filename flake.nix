@@ -119,6 +119,8 @@
           fd
           ripgrep
 
+          jjui
+
           bash-language-server
           llvmPackages_17.clang-tools
           clang

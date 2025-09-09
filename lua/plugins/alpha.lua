@@ -28,7 +28,8 @@ dashboard.section.header.val = { -- https://patorjk.com/software/taag/#p=testall
     dashboard.button("g", "  Fuzzy search",  ":Telescope live_grep <CR>"), -- I use jj now
     dashboard.button("f", "󰈞  Find file",     ":Telescope fd <CR>"),
     dashboard.button("r", "󰄉  Recent files",  ":Telescope oldfiles <CR>"),
-    dashboard.button("t", "  Terminal" ,     ":term<CR>"),
+    dashboard.button("t", "  Terminal",      ":term<CR>"),
+    dashboard.button("j", "󱗆  Jujutsu",       ":term jjui; exit<CR>"),
     dashboard.button("q", "  Quit Neovim",   ":qa<CR>"),
     -- dashboard.button("g", "  Fugitive",      ":G <CR><C-w>j:q <CR>"), -- I use jj now
     -- dashboard.button("c", "  Configuration", ":e ~/.config/nvim<CR> cd"),
