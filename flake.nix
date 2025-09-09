@@ -43,6 +43,10 @@
       url = "github:tjkuson/nvim-activate";
       flake = false;
     };
+    "plugins-colorizer" = { # The one in nix is out of date
+      url = "github:norcalli/nvim-colorizer.lua";
+      flake = false;
+    };
 
 
     # see :help nixCats.flake.inputs
@@ -142,9 +146,10 @@
       # This is for plugins that will load at startup without using packadd:
       startupPlugins = {
         gitPlugins = pkgs.lib.forEach ( with pkgs.neovimPlugins; [
+          colorizer
           heirline-components-nvim # nice prebuilt components for heirline
-          scrollEOF-nvim
           nvim-activate
+          scrollEOF-nvim
         ]) (pkg: pkg.overrideAttrs (_: {
           doCheck = false;
         }));

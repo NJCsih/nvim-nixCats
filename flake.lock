@@ -241,6 +241,22 @@
         "type": "github"
       }
     },
+    "plugins-colorizer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1715313687,
+        "narHash": "sha256-gjO89Sx335PqVgceM9DBfcVozNjovC8KML1OZCRNMGw=",
+        "owner": "norcalli",
+        "repo": "nvim-colorizer.lua",
+        "rev": "a065833f35a3a7cc3ef137ac88b5381da2ba302e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "norcalli",
+        "repo": "nvim-colorizer.lua",
+        "type": "github"
+      }
+    },
     "plugins-heirline-components-nvim": {
       "flake": false,
       "locked": {
@@ -294,6 +310,7 @@
         "neorg-overlay": "neorg-overlay",
         "nixCats": "nixCats",
         "nixpkgs": "nixpkgs_3",
+        "plugins-colorizer": "plugins-colorizer",
         "plugins-heirline-components-nvim": "plugins-heirline-components-nvim",
         "plugins-nvim-activate": "plugins-nvim-activate",
         "plugins-scrollEOF-nvim": "plugins-scrollEOF-nvim"

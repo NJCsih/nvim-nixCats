@@ -1,6 +1,7 @@
 require("plugins.lsp")
 
 require("plugins.alpha")
+require("plugins.colorizer")
 require("plugins.flash")
 require("plugins.gitsigns")
 require("plugins.hop")
