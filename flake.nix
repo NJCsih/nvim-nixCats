@@ -39,8 +39,8 @@
       url = "github:Aasim-A/scrollEOF.nvim";
       flake = false;
     };
-    "plugins-nvim-activate" = {
-      url = "github:NJCsih/nvim-activate";
+    "plugins-nvim-activate" = { # They accepted my pr :)
+      url = "github:tjkuson/nvim-activate";
       flake = false;
     };
 
