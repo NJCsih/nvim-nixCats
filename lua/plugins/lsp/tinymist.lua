@@ -1,5 +1,5 @@
 require('lspconfig').tinymist.setup({
   cmd = { "tinymist" },
   filetypes = { "typst" },
-  root_markers = { ".git" },
+  root_markers = { ".git", ".typst_root" },
 })

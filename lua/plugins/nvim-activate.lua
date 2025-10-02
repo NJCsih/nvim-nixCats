@@ -9,6 +9,6 @@ vim.api.nvim_create_autocmd("VimEnter", {
     vim.defer_fn(function()
       vim.g.nvimactivate_disable = true
       require("nvim-activate").hide()
-    end, 60000) -- in ms
+    end, 15000) -- in ms
   end,
 })

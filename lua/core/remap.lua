@@ -1,3 +1,6 @@
+-- move windows with c not <C-w>
+vim.keymap.set("n", "c", "<C-w>")
+
 --open netrw
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 

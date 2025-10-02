@@ -2,23 +2,24 @@ local lspconfig = require("lspconfig")
 --local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 lspconfig.pyright.setup({
-	python = {
-		cmd = { "pyright", "--stdio" },
+  python = {
+    cmd = { "pyright", "--stdio" },
 
-		filetypes = { "python" },
+    filetypes = { "python" },
 
-		-- root_dir = see source file
+    -- root_dir = see source file
 
-		settings = {
-			python = {
-				analysis = {
-					autoSearchPaths = true,
-					diagnosticMode = "openFilesOnly",
-					useLibraryCodeForTypes = true,
-				},
-			},
-		},
+    settings = {
+      python = {
+        analysis = {
+          autoSearchPaths = true,
+          diagnosticMode = "openFilesOnly",
+          useLibraryCodeForTypes = true,
+          typeCheckingMode = "basic",
+        },
+      },
+    },
 
-		single_file_support = true,
-	},
+    single_file_support = true,
+  },
 })

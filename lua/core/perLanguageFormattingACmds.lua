@@ -59,11 +59,8 @@ vim.api.nvim_create_autocmd({ "CursorHold" }, {
     -- pattern = { "bash"  -- make this not work on a terminal window
     callback = function()
         local FileType = vim.bo.filetype
-        if (FileType == 'norg' or FileType == 'tex' or FileType == 'markdown') then
+        if (FileType == 'norg' or FileType == 'tex') then
             vim.cmd([[lua require('nabla').popup({border = 'rounded'})]])
-        end
-        if (FileType == 'typst') then
-          --vim.cmd "w" -- I think there's a better way to do autosaving? maybe a plugin? I don't want this to trigger on a file that's never been saved
         end
     end,
 })
@@ -188,7 +185,7 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
 })
 
 vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
-  pattern = { "*.lua" },
+  pattern = { "*.lua", "*.json" },
   callback = function()
     LuaStyle()
   end,
