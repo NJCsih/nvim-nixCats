@@ -1,4 +1,5 @@
-require'lspconfig'.bashls.setup{
+vim.lsp.enable('bashls')
+vim.lsp.config('bashls', {
     cmd = { "bash-language-server", "start" },
     filetypes = { "sh" },
     --root_dir = util.find_git_ancestor,
@@ -8,4 +9,4 @@ require'lspconfig'.bashls.setup{
       }
     },
     single_file_support = true,
-}
+})

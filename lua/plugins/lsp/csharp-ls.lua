@@ -1,4 +1,4 @@
-require'lspconfig'.csharp_ls.setup{
+vim.lsp.config.csharp_ls.setup{
     cmd  = { "csharp-ls" },
     filetypes = { "cs" },
     init_options = {

@@ -1,7 +1,5 @@
--- Minimal zls config for zig language
-local lspconfig = require('lspconfig')
-
-lspconfig.zls.setup({
+vim.lsp.enable('zls')
+vim.lsp.config('zls', {
 	zig = {
 		cmd = { "zls" },
 		filetypes = { "zig", "zir" },

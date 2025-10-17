@@ -1,7 +1,5 @@
-local lspconfig = require("lspconfig")
---local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-lspconfig.jdtls.setup({
+vim.lsp.enable('jdtls')
+vim.lsp.config('jdtls', {
 	cmd = { "jdtls" },
 	--	root_dir = {
 	--		{

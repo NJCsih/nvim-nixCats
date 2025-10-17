@@ -126,7 +126,7 @@
           jjui
 
           bash-language-server
-          llvmPackages_17.clang-tools
+          clang-tools
           clang
           #csharp-ls
           jdt-language-server

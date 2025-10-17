@@ -1,11 +1,11 @@
--- move windows with c not <C-w>
-vim.keymap.set("n", "c", "<C-w>")
+-- move windows with a not <C-w>
+vim.keymap.set("n", "a", "<C-w>")
 
 --open netrw
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- set keybind to remove all trailing whitespace
-vim.keymap.set("n", "<leader>tr", ":%substitute/[ \t]*$//<CR>``")
+vim.keymap.set("n", "<leader>tr", ":%substitute/[ \t]\\+$//<CR>``")
 
 -- move selected up or down
 --vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")

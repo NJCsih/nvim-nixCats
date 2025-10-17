@@ -1,7 +1,4 @@
-local lspconfig = require("lspconfig")
---local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-lspconfig.matlab_ls.setup({
+vim.lsp.config.matlab_ls.setup({
 	matlab = {
 		indexWorkspace = false,
 		installPath = "",

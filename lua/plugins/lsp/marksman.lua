@@ -1,7 +1,5 @@
-local lspconfig = require("lspconfig")
---local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-lspconfig.marksman.setup({
+vim.lsp.enable('marksman')
+vim.lsp.config('marksman', {
 	cmd = { "marksman", "server" },
 	filetypes = { "markdown", "markdown.mdx" },
 	-- root_dir = nvim_lsp.util.root_pattern(".git", ".marksman.toml"),

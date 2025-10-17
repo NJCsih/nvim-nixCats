@@ -1,7 +1,5 @@
-local lspconfig = require("lspconfig")
---local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-lspconfig.texlab.setup({
+vim.lsp.enable('texlab')
+vim.lsp.config('texlab', {
 
 	--TexlabBuild: Build the current buffer
 	--TexlabForward: Forward search from current position
