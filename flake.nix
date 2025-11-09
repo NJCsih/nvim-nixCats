@@ -175,7 +175,6 @@
           heirline-nvim
           luasnip
           mini-nvim
-          nabla-nvim
           neorg
           neoscroll-nvim
           nvim-cmp

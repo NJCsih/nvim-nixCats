@@ -1,2 +1,0 @@
--- vim.keymap.set("n", "<leader>na", function() vim.cmd [[ lua require('nabla').popup({border = 'rounded'}) ]] end) -- Switch to the nicer vim.cmd (is that even the right way to call lua?)
--- I just have it autorun on some files, I never use outside of them turns out

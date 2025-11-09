@@ -10,7 +10,6 @@ require("plugins.lsp-lines")
 require("plugins.lualine")
 require("plugins.mini-align")
 require("plugins.mini-move")
-require("plugins.nabla-nvim")
 require("plugins.neorg")
 -- require("plugins.neoscroll") -- fighting eof
 require("plugins.nvim-activate")
