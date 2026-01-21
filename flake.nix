@@ -129,13 +129,14 @@
           clang-tools
           clang
           #csharp-ls
+          basedpyright
           jdt-language-server
           lua-language-server
           marksman
           nixd
           nushell
           openscad-lsp
-          pyright
+          ruff
           rust-analyzer
           texlab
           tinymist

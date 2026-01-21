@@ -1,20 +1,19 @@
 -- Setup language servers.
 --require("plugins.lsp.csharp-ls") -- I don't use this anymore
+require("plugins.lsp.basedpyright")
 require("plugins.lsp.bash-language-server") -- may not be working perfectly
 require("plugins.lsp.clangd")
 require("plugins.lsp.jdtls")
-require("plugins.lsp.tinymist")
-require("plugins.lsp.nixd")
-require("plugins.lsp.verilog")
-require("plugins.lsp.typos_lsp")
-require("plugins.lsp.nu")
-require("plugins.lsp.openscad")
--- Rust is handled by rustaceanvim, not lspconfig
-
 require("plugins.lsp.lua_language_server")
 require("plugins.lsp.marksman")
-require("plugins.lsp.pyright")
+require("plugins.lsp.nixd")
+require("plugins.lsp.nu")
+require("plugins.lsp.openscad")
+require("plugins.lsp.ruff")
 require("plugins.lsp.texlab")
+require("plugins.lsp.tinymist")
+require("plugins.lsp.typos_lsp")
+require("plugins.lsp.verilog")
 require("plugins.lsp.zls")
 
 -- Global mappings.
