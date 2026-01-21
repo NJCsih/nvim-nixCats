@@ -6,6 +6,7 @@ require("plugins.lsp.jdtls")
 require("plugins.lsp.tinymist")
 require("plugins.lsp.nixd")
 require("plugins.lsp.verilog")
+require("plugins.lsp.typos_lsp")
 require("plugins.lsp.nu")
 require("plugins.lsp.openscad")
 -- Rust is handled by rustaceanvim, not lspconfig

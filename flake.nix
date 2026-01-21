@@ -139,6 +139,7 @@
           rust-analyzer
           texlab
           tinymist
+          typos-lsp
           verible
         ];
       };
