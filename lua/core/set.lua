@@ -4,6 +4,9 @@ vim.opt.mouse = ""
 -- set cursor to block
 vim.opt.guicursor = "n-v-c-sm-i:block,ci-ve:ver25,r-cr-o:hor20"
 
+-- allow folding via marker (the [[[ folded  ]]] thing)
+vim.opt.foldmethod = 'marker'
+
 -- always use relative line numbers
 vim.opt.nu = true
 vim.opt.relativenumber = true
